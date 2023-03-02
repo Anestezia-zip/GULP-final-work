@@ -1,0 +1,116 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title final-homework-12
+  link(rel='stylesheet', href='./css/main.min.css')
+body
+.wrapper
+  section.header
+    header
+      .header__container
+        a.header__logo(href='#') DREAMSHARE
+        nav.header__menu
+          ul.menu
+            li
+              a(href='') Log in
+            li
+              a.signup(href='') Sign up
+    .hero
+      .hero__container
+        h1
+          | SHARE YOUR 
+          br
+          |  HOLIDAY DREAM
+        p And find the perfect partner to fullfill it
+        div
+          input.hero-btn(type='button', value='Find your holiday partner')
+  main.page
+    section.about.common-section
+      .about__container
+        h2.sections-title How Dreamshare works?
+        ul.about-cards
+          li.about-card.card-1
+            p STEP 1
+            h3 Sed leo enim, condimentum
+            h4
+              | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+          li.about-card.card-2
+            p STEP 2
+            h3 Morbi velit risus
+            h4
+              | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+          li.about-card.card-3
+            p STEP 3
+            h3 Sed leo enim, condimentum
+            h4
+              | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+    section.partners.common-section
+      .partners__container
+        h2.sections-title Meet a partner for your best holiday
+        ul.partners-cards
+          li
+            img(src='./img/Avatar1.png', alt='')
+            p.partners-name Bradley Hunter
+            p.partners-title Based in Chicago. I love playing tennis and loud music.
+          li
+            img(src='./img/Avatar2.png', alt='')
+            p.partners-name Marie Bennett
+            p.partners-title Currently living in Colorado. Lover of art, languages and travelling.
+          li
+            img(src='./img/Avatar3.png', alt='')
+            p.partners-name Diana Wells
+            p.partners-title
+              | Living in Athens, Greece. I love black and white classics, chillout music and green tea.
+          li
+            img(src='./img/Avatar4.png', alt='')
+            p.partners-name Christopher Pierce
+            p.partners-title Star Wars fanatic. I have a persistent enthusiasm to create new things.
+        div
+          input.partners-btn(type='button', value='See other partners')
+    section.ideas.common-section
+      .ideas__container
+        h2.sections-title Discover holiday activity ideas
+        ul.ideas-cards
+          li.ideas-card
+            .ideas-item.sports
+              h4 Sports and Activis
+            .ideas-item.helth
+              h4 Wellness and Health
+            .ideas-item.extreme
+              h4 Extreme Sports and Expeditions
+          li.ideas-card
+            .ideas-item.games
+              h4 Games
+            .ideas-item.culture
+              h4 Culture and Education
+          li.ideas-card
+            .ideas-item.relax
+              h4 Enjomet and Relaxation
+            .ideas-item.travelling
+              h4 Travelling
+    section.create
+      .create__container
+        h2.sections-title Create your holiday activity
+        p.create-title Hi! What are your holiday interests?
+        form.create-btn-wrapper
+          input.create-search(type='search', placeholder='Enter your insterests')
+          input.create-btn(type='button', value='Search partners')
+  footer.footer
+    .footer__container
+      .footer-wrapper
+        a.footer-logo(href='#') DREAMSHARE
+        div
+          p.footer-company Company
+          .footer-list
+            .footer-list-flex
+              p About
+              p Contact
+              p Press
+              p Blog
+            .footer-list-flex
+              p Terms and Privacy
+              p Help
+        p.footer-partners Partners
+        img(src='./img/Bitmap.png', width='110px', height='24px', alt='')
